@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <style>
+        .card img{
+     
+            height: 220px;
+            width: 280px;
+            object-fit:contain;
+         
+        }
+        .card{
+            height: 400px;
+        }
+        .card img:hover{
+            opacity: .7;
+            transform: scale(1.1);
+        }
+        .clothes .card img{
+            height: 300px;
+            width: 280px;
+            object-fit: contain;
+        }
+        .clothes .card{
+            height: 480px;
+        }
+        
+    </style> -->
+    <style>
+     .footer1{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    margin-top: 40px;
+}
+.footer1 h1{
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="sign">Sign Up</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="clik">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- form -->
+      <div class="form">
+      <form class="container fluid mt-5" id="form">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" >Number</label>
+            <input type="tel" class="form-control" id="exampleInputPassword1" maxlength="16">
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="real">Submit</button>
+      </form>
+    </div>
+<!-- card -->
+
+      
+ 
+     <div id="telefon">
+        <h1 class="container mt-5">Phones</h1>
+      <div class="container fluid mt-5">
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+        <img src="./images/iphone 12pro.jpg" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">IPHONE 12PRO</h5>
+          <p class="card-text">
+            iphone 12 pro telefonimiz narxi  <del>1300$</del> 800$
+              <br>
+              <a href="tel:+998930947879">BUYURTMA BERISH</a>
+          </p>
+          <a href="tel:+998930947879" class="btn btn-primary">SOTIB OLISH</a>
+        </div>
+      </div> 
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+      <img src="./images/DSC04479-1024x683.jpg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">esla</h5>
+        <p class="card-text">
+          esla phone telefonimiz narxi  <del>900$</del> 800$
+            <br>
+            <a href="tel:+998930947879">BUYURTMA BERISH</a>
+        </p>
+        <a href="tel:+998930947879" class="btn btn-primary">SOTIB OLISH</a>
+      </div>
+    </div> 
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+      <img src="./images/redmi10.jpg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">REDMI 10</h5>
+        <p class="card-text">
+          redmi 10telefonimiz narxi  <del>500</del> 400$
+            <br>
+            <a href="tel:+998930947879">BUYURTMA BERISH</a>
+        </p>
+        <a href="tel:+998930947879" class="btn btn-primary">SOTIB OLISH</a>
+      </div>
+    </div> 
+        </div>
+          </div>
+        </div>
+       
+
+
+
+     </div>
+        <!-- 1 tugadi -->
+     
+      <div class="container fluid mt-5">
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+        <img src="./images/71AvQd3VzqL._AC._SR360,460.jpg" class="card-img-top" alt="..." >
+        <div class="card-body">
+            <h5 class="card-title">one plus 10</h5>
+            <p class="card-text">
+              one plus 10telefonimiz narxi  <del>500$</del> 400$
+                <br>
+                <a href="tel:+998930947879">BUYURTMA BERISH</a>
+            </p>
+            <a href="tel:+998930947879" class="btn btn-primary">SOTIB OLISH</a>
+          </div>
+      </div> 
+          </div>
+          <div class="col">
+            <div class="card mt-3 mb-3" style="width: 18rem;">
+                <img src="./images/81QqVNKWtML._AC._SR360,460.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                    <h5 class="card-title">Realme narzo i 50</h5>
+                    <p class="card-text">
+                        Realme narzo i 50 telefonimiz narxi 280$
+                        <br>
+                        <a href="tel:+998930947879">BUYURTMA BERISH</a>
+                    </p>
+                    <a href="tel:+998930947879" class="btn btn-primary">SOTIB OLISH</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/9084858593825FCAA3434A7ABC27AE18.jpg" class="card-img-top" alt="...>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+                </div>
+            
+          </div>
+        </div>
+
+
+      <!-- 2 tugadi -->
+      <div class="container fluid mt-5">
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+        <img src="./images/aller.png" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> 
+          </div>
+          <div class="col">
+            <div class="card mt-3 mb-3" style="width: 18rem;">
+                <img src="./images/fairphone.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">G+ note 10</h5>
+                  <p class="card-text">G+ note 10 telefonimiz narxi 430$
+                    <br>
+                    <a href="tel:+998930"></a>
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/global-version-xiaomi-mi-a1-5-5-inch-4gb-64gb-smartphone-black-1571991884166.jpg" class="card-img-top" alt="...>
+                <div class="card-body">
+                  <h5 class="card-title">G+  note 10s </h5>
+                  <p class="card-text">G+ note 10s telefonimiz narxi 430$.
+                    <br>
+                    <br>
+                    <a href="tel:+998930947879 ">Buyurtma berish</a>
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      <!-- 3tugadi -->
+      <div class="container fluid mt-5">
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+        <img src="./images/huawei.png" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> 
+          </div>
+          <div class="col">
+            <div class="card mt-3 mb-3" style="width: 18rem;">
+                <img src="./images/iphone.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/oneplus.webp" class="card-img-top" alt="...>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- 4 tugadi -->
+        <div class="container fluid mt-5 " style="border-bottom:1px solid black ;">
+            <div class="row">
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+            <img src="./images/redmi9.jpg" class="card-img-top" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> 
+              </div>
+              <div class="col">
+                <div class="card mt-3 mb-3" style="width: 18rem;">
+                    <img src="./images/s21.jpg" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Без названия.jpg" class="card-img-top" alt="...>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+ 
+        <!-- notebook -->
+        <div class="notebook"">
+            
+                <div class="container fluid mt-5">
+                    <h1>nootebook</h1>
+                    <div class="row">
+                      <div class="col">
+                          <div class="card mt-3" style="width: 18rem;">
+                    <img src="./images/nootebook/02_ideapad_3_15inch_hero_front_facing_jd_arctic_grey_2.jpg" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div> 
+                      </div>
+                      <div class="col">
+                        <div class="card mt-3 mb-3" style="width: 18rem;">
+                            <img src="./images/nootebook/954612-2.jpg" class="card-img-top" alt="..." >
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/nootebook/_S_HP-Zbook-F2Q82UT-.jpg" class="card-img-top" alt="...>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="container fluid mt-3">
+                        <div class="row">
+                          <div class="col">
+                              <div class="card" style="width: 18rem;">
+                        <img src="./images/nootebook/c08148899.png" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div> 
+                          </div>
+                          <div class="col">
+                            <div class="card mt-3 mb-3" style="width: 18rem;">
+                                <img src="./images/nootebook/hero.jpg" class="card-img-top" alt="..." >
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./images/nootebook/hp elite.png" class="card-img-top" alt="...>
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                          </div>
+    
+                        </div>
+                        <!-- 3 -->
+                        <div class="container fluid mt-3">
+                            <div class="row">
+                              <div class="col">
+                                  <div class="card" style="width: 18rem;">
+                            <img src="./images/nootebook/hp-omen-15-en0000-laptop-pc-8wk04av-28z6.o.jpg" class="card-img-top" alt="..." >
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div> 
+                              </div>
+                              <div class="col">
+                                <div class="card mt-3 mb-3" style="width: 18rem;">
+                                    <img src="./images/nootebook/hp.jpg" class="card-img-top" alt="..." >
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/nootebook/hp2.jpg" class="card-img-top" alt="...>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                              </div>
+        
+                            </div>
+                            <!-- 4 -->
+     <div class="container fluid mt-3" style="border-bottom:1px solid black ;">
+                                <div class="row">
+                                  <div class="col">
+                                      <div class="card" style="width: 18rem;">
+                                <img src="./images/nootebook/image.jpg" class="card-img-top" alt="..." >
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div> 
+                                  </div>
+                                  <div class="col">
+                                    <div class="card mt-3 mb-3" style="width: 18rem;">
+                                        <img src="./images/nootebook/mac-os.jpg" class="card-img-top" alt="..." >
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./images/nootebook/odtbtgltop8fb3ytjpdy4orxz9a3l7232523.jpg" class="card-img-top" alt="...>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                  </div>
+            
+                                </div>                       
+                                
+                         </div>
+ <div class="maishiy">
+            <div class="container fluid mt-5" ">
+           <div class="row">
+           <div class="col">
+           <div class="card" style="width: 18rem;">
+        <img src="./images/maishiy/20210830064121all-in-one-heat-pump-image-1.png" class="card-img-top" alt="..." >
+         <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" class="btn btn-primary">Go somewhere</a>
+       </div>
+      </div> 
+       </div>
+
+       <div class="col">
+       <div class="card mt-3 mb-3" style="width: 18rem;">
+      <img src="./images/maishiy/31ZfztfJotL.jpg" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+           </div>
+
+         <div class="col">
+        <div class="card" style="width: 18rem;">
+       <img src="./images/maishiy/Double-Tub-Mini-Washing-Machine-Small-Semi-Automatic-Double-Tub-Washing-Machine-Washing-All-In-One.jpg_Q90.jpg_.jpg" class="card-img-top" alt="...>
+        <div class="card-body">
+         <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+               </div>
+
+          </div>
+            
+        </div>   
+        <!-- 2 -->
+        <div class="container fluid mt-3" ">
+            <div class="row">
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+         <img src="./images/maishiy/eu-HP-CategoryMood-automatic-coffee-ECAM610.75.MB-mob.jpg" class="card-img-top" alt="..." >
+          <div class="card-body">
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+       </div> 
+        </div>
+ 
+        <div class="col">
+        <div class="card mt-3 mb-3" style="width: 18rem;">
+       <img src="./images/maishiy/images (1).jpg" class="card-img-top" alt="..." >
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+                 </div>
+               </div>
+            </div>
+ 
+          <div class="col">
+         <div class="card" style="width: 18rem;">
+        <img src="./images/maishiy/kitchen-appliances-that-make-life-easier-1.jpg" class="card-img-top" alt="...>
+         <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+                 </div>
+                </div>
+ 
+           </div>
+             
+         </div>  
+         <!-- 3 -->
+         <div class="container fluid mt-3" style="border-bottom:1px inset black
+          ;">
+            <div class="row">
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+         <img src="./images/maishiy/logo-haier-corporation-one-their-air-conditioners-belgrade-serbia-april-chinese-manufacturer-domestic-appliances-218776009.jpg" class="card-img-top" alt="..." >
+          <div class="card-body">
+         <h5 class="card-title">Card title</h5>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+       </div> 
+        </div>
+ 
+        <div class="col">
+        <div class="card mt-3 mb-3" style="width: 18rem;">
+       <img src="./images/maishiy/Ninja-Multicooker-Prime-Day.jpg" class="card-img-top" alt="..." >
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+                 </div>
+               </div>
+            </div>
+ 
+          <div class="col">
+         <div class="card" style="width: 18rem;">
+        <img src="./images/maishiy/Без названия.jpg" class="card-img-top" alt="...>
+         <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+                 </div>
+                </div>
+ 
+           </div>
+             
+         </div>  
+        
+         </div>   
+                   <!-- kiyimlar -->
+                   <div class="clothes">
+                    <div class="container fluid mt-5" >
+                        <div class="row">
+                        <div class="col">
+                        <div class="card" style="width: 18rem;">
+                     <img src="./images/clothes/5c4e53f17d0cbc35ef851b8db5af1124--semi-formal-outfit-for-men-formal-wear.jpg" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                   </div> 
+                    </div>
+             
+                    <div class="col">
+                    <div class="card mt-3 mb-3" style="width: 18rem;">
+                   <img src="./images/clothes/65dbf3f221dff1730a8e3f5e9beb8e7d.jpg" class="card-img-top" alt="..." >
+                       <div class="card-body">
+                         <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                             </div>
+                           </div>
+                        </div>
+             
+                      <div class="col">
+                     <div class="card" style="width: 18rem;">
+                    <img src="./images/clothes/6917943c11638ae1f8f2b07d507b9834--mens-navy-blazers-casual-looks.jpg" class="card-img-top" alt="...>
+                     <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a href="#" class="btn btn-primary">Go somewhere</a>
+                             </div>
+                            </div>
+             
+                       </div>
+                         
+                     </div>  
+                     <!-- tugadi b -->
+                     <div class="container fluid mt-3" >
+                        <div class="row">
+                        <div class="col">
+                        <div class="card" style="width: 18rem;">
+                     <img src="./images/clothes/74db381d0642cb7efaf11bc8de99a8d8.jpg" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                   </div> 
+                    </div>
+             
+                    <div class="col">
+                    <div class="card mt-3 mb-3" style="width: 18rem;">
+                   <img src="./images/clothes/ae3ca0086fba19b00d3956e637385496.jpg" class="card-img-top" alt="..." >
+                       <div class="card-body">
+                         <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                             </div>
+                           </div>
+                        </div>
+             
+                      <div class="col">
+                     <div class="card" style="width: 18rem;">
+                    <img src="./images/clothes/Club-Attire-with-Jeans.webp" class="card-img-top" alt="...>
+                     <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a href="#" class="btn btn-primary">Go somewhere</a>
+                             </div>
+                            </div>
+             
+                       </div>
+                         
+                     </div>  
+                     <!-- tugadi -->
+                     <div class="container fluid mt-3" style="border-bottom:1px solid black ;">
+                        <div class="row">
+                        <div class="col">
+                        <div class="card" style="width: 18rem;">
+                     <img src="./images/clothes/d0589c6e1b8269072a740c52009ed5a8.jpg" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                   </div> 
+                    </div>
+             
+                    <div class="col">
+                    <div class="card mt-3 mb-3" style="width: 18rem;">
+                   <img src="./images/clothes/e53c19aba7e93490438eabc1987d88c8.jpg" class="card-img-top" alt="..." >
+                       <div class="card-body">
+                         <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                             </div>
+                           </div>
+                        </div>
+             
+                      <div class="col">
+                     <div class="card" style="width: 18rem;">
+                    <img src="./images/clothes/casual-dress-code-men-street-style-luxe-digital-1.jpg" class="card-img-top" alt="...>
+                     <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a href="#" class="btn btn-primary">Go somewhere</a>
+                             </div>
+                            </div>
+             
+                       </div>
+                         
+                     </div>  
+                     <!-- tugadi -->
+                     </div>   
+                   
+                   <!-- </div> -->
+                   <!-- footer -->
+                   <div class="footer1 fluid">
+                    <h1 >&#169;DOSTON QUDRATOV</h1>
+                   </div>
+        
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- gggg -->
+      <script src="./main.js">
+      
+      </script>
+
+</body>
+</html>
